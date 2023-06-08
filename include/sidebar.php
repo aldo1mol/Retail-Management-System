@@ -19,7 +19,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="../pages/analytics.php">
 					<i class='bx bxs-doughnut-chart' ></i>
 					<span class="text">Analytics</span>
 				</a>

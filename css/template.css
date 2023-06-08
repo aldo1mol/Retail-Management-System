@@ -156,27 +156,6 @@ body {
   color: #3c64e6;
   font-weight: bold;
 }
-#content nav::before {
-  content: "";
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  bottom: 2px;
-  width: 21px;
-  background: var(--blue);
-  border-radius: 50%;
-  transition: all 0.3s ease;
-}
-#content::before {
-  content: "";
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  bottom: -40px;
-  left: 0;
-  border-radius: 50%;
-  box-shadow: -20px -20px 0 #f9f9f9;
-}
 #content a {
   color: #342e37;
 }
@@ -318,7 +297,7 @@ main .head-title .btn-download {
   height: 36px;
   padding: 0 16px;
   border-radius: 36px;
-  background: #DB504A;
+  background: rgba(9, 187, 69, 0.631372549);
   color: #f9f9f9;
   display: flex;
   justify-content: center;
